@@ -14,13 +14,13 @@ Ensure you have the following installed on your system:
 
 - [Ruby](https://www.ruby-lang.org/en/downloads/) (version >= 2.7)
 - [Node.js](https://nodejs.org) (version >= 12)
-- [Yarn](https://yarnpkg.com)
+- [Yarn](https://yarnpkg.com)(version = 4.1.1)
 
 ### Setting Up Development Environment
 
 #### For Windows Users (via Windows Subsystem for Linux - WSL)
 
-1. Install the [Windows Subsystem for Linux (WSL)](https://gorails.com/setup/windows/10) if you haven't already.
+1. Install the [Windows Subsystem for Linux (WSL)](https://gorails.com/setup/windows/10) it is mandatory.
 2. After setting up WSL, navigate to the project directory in your Linux subsystem.
 3. Fork the repository by clicking the "Fork" button on the [repository page](https://github.com/OneBusAway/onebusaway-docs).
 4. Clone the forked repository:
@@ -30,7 +30,7 @@ Ensure you have the following installed on your system:
     cd onebusaway-docs
     ```
 
-5. Install dependencies:
+6. Install dependencies:
 
     ```sh
     bundle install
@@ -43,7 +43,7 @@ Ensure you have the following installed on your system:
     yarn add glob
     ```
 
-6. If CSS is not working properly, rebuild frontend assets:
+7. If CSS is not working properly, rebuild frontend assets:
 
     ```sh
     bin/bridgetown frontend:build
